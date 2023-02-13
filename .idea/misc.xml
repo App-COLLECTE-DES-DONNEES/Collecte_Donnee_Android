@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/drawable/btn_rounded_green_300.xml" value="0.22592592592592592" />
+        <entry key="app/src/main/res/drawable/clear.xml" value="0.2359375" />
+        <entry key="app/src/main/res/drawable/customborder.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/drawable/edit_text_round_bg_outline.xml" value="0.2359375" />
+        <entry key="app/src/main/res/drawable/edit_text_round_bg_white.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/drawable/edit_text_round_spinner_white.xml" value="0.13020833333333334" />
+        <entry key="app/src/main/res/drawable/ic_arrow_drop.xml" value="0.2359375" />
+        <entry key="app/src/main/res/drawable/ic_check.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/drawable/ic_check_circle.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.22592592592592592" />
+        <entry key="app/src/main/res/drawable/shape_round_outline_primary.xml" value="0.2359375" />
+        <entry key="app/src/main/res/drawable/spinner_background.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/drawable/spinner_backgrounds.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/drawable/toolbar_item_bg.xml" value="0.10416666666666667" />
+        <entry key="app/src/main/res/drawable/undo.xml" value="0.2359375" />
+        <entry key="app/src/main/res/drawable/wishname.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/activity_drawing.xml" value="0.2657563025210084" />
+        <entry key="app/src/main/res/layout/activity_generatepv.xml" value="0.18711580268655453" />
+        <entry key="app/src/main/res/layout/activity_getaccidentdata.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_list_basic.xml" value="0.21875" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.21356160915528913" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1997703110537002" />
+        <entry key="app/src/main/res/layout/activity_palette.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/layout/activity_police.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_accident.xml" value="0.23346246516779118" />
+        <entry key="app/src/main/res/layout/fragment_route.xml" value="0.24140402653916493" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.31165493089979146" />
+        <entry key="app/src/main/res/layout/fragment_usager.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_vehicule.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.21875" />
+        <entry key="app/src/main/res/layout/snackbar_custom.xml" value="0.11458333333333333" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.21875" />
+        <entry key="app/src/main/res/layout/transparent_layout.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/layout/verbalprocess.xml" value="0.11839095828582026" />
+        <entry key="app/src/main/res/layout/view_list_item.xml" value="0.21875" />
+        <entry key="app/src/main/res/menu/ic_menu.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.10260416666666666" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.1859375" />
+        <entry key="app/src/main/res/menu/menu_setting.xml" value="0.1859375" />
+        <entry key="app/src/main/res/xml/authenticator.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/xml/provider_paths.xml" value="0.21875" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

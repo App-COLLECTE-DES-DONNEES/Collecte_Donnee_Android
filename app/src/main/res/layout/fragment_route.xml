@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/grey_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/limitvitesse"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <EditText
+                android:id="@+id/limitvitesse"
+                android:background="@drawable/edit_text_round_bg_white"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/limitvitesse"
+                android:text="10"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:minHeight="@dimen/spacing_xmlarge" />
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/typeroute"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:id="@+id/roadtypespinner"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etatroute"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:id="@+id/etatroutespinner"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_middlse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penteroute"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:id="@+id/roadslopspinner"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_middlse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contrcarrefour"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+
+        <Spinner
+                android:id="@+id/roadtrafficspinner"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/catfroute"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:id="@+id/catfspinner"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obstroute"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+
+        <Spinner
+                android:id="@+id/obstroutespinner"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/carreofur"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+
+        <Spinner
+                android:id="@+id/carrefourspinner"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/virage"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+
+        <Spinner
+                android:id="@+id/viragespinner"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/spacing_small"
+                android:layout_weight="1">
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/spacing_middle">
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:orientation="horizontal">
+
+
+            <View
+                android:layout_width="@dimen/spacing_middle"
+                android:layout_height="0dp" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="@dimen/spacing_middle"
+            android:layout_height="4dp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/spacing_xxlarge"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            android:layout_marginBottom="@dimen/spacing_xlarge"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:weightSum="2"
+                  android:id="@+id/entete"
+                  android:visibility="visible"
+                  android:background="@color/white"
+    android:layout_marginTop="@dimen/spacing_large">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/spacing_middle"
+                    android:text="@string/republique"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                   android:layout_marginTop="@dimen/spacing_medium"
+                   android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"  android:textSize="@dimen/spacing_middle" 
+                    android:text="@string/presidence"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+            
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"  android:textSize="@dimen/spacing_middle"
+                    android:text="@string/delegation"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"  android:textSize="@dimen/spacing_middle" 
+                    android:text="@string/secretariat"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"  android:textSize="@dimen/spacing_middle"
+                    android:text="@string/direction"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"  android:textSize="@dimen/spacing_middle"
+                    android:text="@string/ssdirection"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+
+        </LinearLayout>
+
+        <ImageView android:layout_width="75dp"
+                   android:layout_height="75dp"
+                   android:background="@drawable/logo_police"
+                    />
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:background="@color/white"
+                      android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"  android:textSize="@dimen/spacing_middle" 
+                    android:text="@string/erepublique"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"  android:textSize="@dimen/spacing_middle" 
+                    android:text="@string/epresidence"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"  android:textSize="@dimen/spacing_middle"
+                    android:text="@string/edelegation"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"  android:textSize="@dimen/spacing_middle" 
+                    android:text="@string/esecretariat"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"  android:textSize="@dimen/spacing_middle" 
+                    android:text="@string/edirection"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    app:fontFamily="sans-serif-medium"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_xlarge"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:background="@android:color/darker_gray"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="@dimen/spacing_middle"
+                    android:text="@string/essdirection"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/black"
+                    app:fontFamily="sans-serif-medium"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey_20"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:padding="@dimen/spacing_large">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/spacing_middle"
+                android:text="@string/pv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/black"
+                app:fontFamily="sans-serif-medium"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/pv1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/black"
+                app:fontFamily="sans-serif-medium"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/spacing_medium"
+    android:layout_marginTop="@dimen/spacing_medium">
+        <TextView
+                android:id="@+id/datepv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datepv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/black"
+                app:fontFamily="sans-serif-medium"
+        android:layout_weight="1"/>
+
+        <TextView
+                android:id="@+id/heurepv"
+                android:layout_marginLeft="@dimen/spacing_xlarge"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heurepv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/black"
+                app:fontFamily="sans-serif-medium"/>
+
+        <TextView
+                android:id="@+id/patrouille"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/patrouille"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/black"
+                app:fontFamily="sans-serif-medium"/>
+
+        <TextView
+                android:id="@+id/idacc"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idaccs"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/black"
+                app:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+        <EditText
+                android:id="@+id/datepvt"
+                android:editable="false"
+                android:layout_weight="1"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/datepv"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:minHeight="@dimen/spacing_xmlarge"
+        />
+        <EditText
+                android:id="@+id/heurepvt"
+                android:editable="false"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/heurepv"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:minHeight="@dimen/spacing_xmlarge"
+        />
+
+
+
+
+        <EditText
+                android:id="@+id/patrouillet"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/patrouille"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:minHeight="@dimen/spacing_xmlarge"
+        />
+
+
+
+        <EditText
+                android:id="@+id/idacct"
+                android:editable="false"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/idacct"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:minHeight="@dimen/spacing_xmlarge"
+        />
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nous"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/black"
+            app:fontFamily="sans-serif-medium"/>
+
+    <EditText
+            android:id="@+id/nous"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="text|textMultiLine"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:minHeight="@dimen/spacing_xmlarge"
+    />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/assiste"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/black"
+                app:fontFamily="sans-serif-medium"/>
+
+    <EditText
+            android:id="@+id/assist"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="text|textMultiLine"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:minHeight="@dimen/spacing_xmlarge"
+            android:layout_marginBottom="@dimen/spacing_medium"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avons"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/black"
+            app:fontFamily="sans-serif-medium"/>
+
+    <EditText
+            android:id="@+id/avons"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="text|textMultiLine"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:minHeight="@dimen/spacing_xmlarge"
+    />
+
+  <!--      <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirm"
+                android:background="@color/green_600"
+                android:text="@string/NEXT"/>-->
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/circulation"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/black"
+            app:fontFamily="sans-serif-medium"/>
+
+    <EditText
+            android:id="@+id/constate"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="text|textMultiLine"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:minHeight="@dimen/spacing_xmlarge"
+    />
+
+
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

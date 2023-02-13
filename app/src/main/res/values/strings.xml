@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Modele collecte</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="version_unknown">Unknown</string>
+    <string name="app_version">Version</string>
+    <string name="default_notification_channel_id">Default</string>
+    <string name="VALID">VALIDER</string>
+    <string name="NEXT">NEXT</string>
+    <string name="idacc">Identificateur de l’accident</string>
+    <string name="idaccs">Id accident</string>
+    <string name="nous">Nous:</string>
+
+    <string name="assiste">Assiste De:</string>
+    <string name="avons">Avons constate:</string>
+    <string name="circulation">de la circulation du survenu:</string>
+    <string name="idacct">Accident</string>
+    <string name="dateacc">Date de l’accident</string>
+    <string name="heureacc">Heure de l’accident</string>
+    <string name="place">Places</string>
+    <string name="city">Ville</string>
+    <string name="munacc">Municipalité </string>
+    <string name="regacc">Region </string>
+    <string name="lieuacc">Lieu de l’accident</string>
+    <string name="typeacc">Type d’accident</string>
+    <string name="typeimpact">Type d’impact</string>
+    <string name="conditionmeteorologiques">Conditions Météorologiques</string>
+    <string name="climaticcondition">Conditions Climatiques</string>
+    <string name="conditionluminosite">Condition Luminosité</string>
+    <string name="Gravitaccident">Gravité de l’accident</string>
+
+    <string name="typeroute">Type Route</string>
+    <string name="catfroute">Catégorie Fonctionnelle des Routes</string>
+    <string name="limitvitesse">Limite de Vitesse</string>
+    <string name="obstroute">Obstacles Routiers</string>
+    <string name="etatroute">Etat de la Route</string>
+    <string name="carreofur">Carrefour</string>
+    <string name="contrcarrefour">Contrôle de la circulation au Carrefour</string>
+    <string name="virage">Virage</string>
+    <string name="penteroute">Pente du tronçon de la Route</string>
+
+    <string name="numvehicule">Numéro du Véhicule</string>
+    <string name="typevehicule">Type  du Véhicule</string>
+    <string name="marquevehicule">Marque du Véhicule</string>
+    <string name="modelevehicule">Modèle  du Véhicule</string>
+
+    <string name="anneevehicule">Année modèle du Véhicule</string>
+    <string name="plate">Plaque d immatriculation</string>
+    <string name="cylindree">Cylindrée</string>
+    <string name="fonctionvehicule">Fonction spéciale du Véhicule</string>
+    <string name="manoeuvrevehicule">Manoeuvre du Véhicule</string>
+
+    <string name="numpersonne">Numéro de la Personne</string>
+    <string name="numvehiculeoccupant">Numéro véhicule occupant</string>
+    <string name="numvehiculepieton">Numéro véhicule piéton</string>
+    <string name="datenaissance">Date de Naissance</string>
+    <string name="sexe">Sexe</string>
+    <string name="typeusageroute">Type usager de la route</string>
+    <string name="placeassise">Places assises</string>
+    <string name="rangee">Rangée</string>
+    <string name="placesiege">Place Siège</string>
+    <string name="gravitetraumatisme">Gravite des traumatismes</string>
+    <string name="equipementsecurite">Equipement de securite</string>
+    <string name="dispositif">Dispositifs des occupants</string>
+    <string name="portcasque">Port du casque</string>
+    <string name="manoeuvrepieton">Manoeuvre Pieton</string>
+    <string name="vehicule">Vehicules</string>
+    <string name="consalcool">Consommation alcool soupconnee</string>
+    <string name="testalcoolemie">Test Alcoolemie</string>
+    <string name="statut">Statut du Test</string>
+    <string name="typetest">Type de test</string>
+    <string name="resultattest">Resultat des Tests</string>
+    <string name="consommationdrogues">Consommation des drogues</string>
+    <string name="datedelivrance">Date de delivrance du Permmis</string>
+    <string name="age">Age</string>
+
+    <string name="contentAuthority">com.ditros.mcd</string>
+    <string name="accountype">com.ditros.mcd.account</string>
+    <string name="middle_lorem_ipsum">Vehicule1</string>
+    <string name="NO">non</string>
+    <string name="YES">oui</string>
+    <string name="pv">PROCES VERBAL DE DECLARATION D\'ACCIDENT</string>
+    <string name="pv1">[ACCIDENT REPORT]</string>
+    <string name="datepv">Date(A-2)</string>
+    <string name="heurepv">Heure(A-3)</string>
+    <string name="idaccpatrouille">patrouille</string>
+    <string name="patrouille">patrouille</string>
+
+    <string name="republique">REPUBLIQUE DU CAMEROUN</string>
+    <string name="presidence">PRESIDENCE DE LA REPUBLIQUE</string>
+    <string name="delegation">DELEGATION GENERALE A LA SURETE NATIONALE</string>
+    <string name="secretariat">SECRETARIAT GENERAL</string>
+    <string name="direction">DIRECTION DE LA SECURITE PUBLIQUE</string>
+    <string name="ssdirection">SOUS DIRECTION DE LA VOIE PUBLIQUE ET DE LA CIRCULATION</string>
+
+    <string name="erepublique">REPUBLIC OF CAMEROON</string>
+    <string name="epresidence">PRESIDENCY OF THE REPUBLIC</string>
+    <string name="edelegation">GENERAL DELEGATION FOR NATIONAL SECURITY</string>
+    <string name="esecretariat">GENERAL SECRETARY</string>
+    <string name="edirection">DEPARTMENT OF PUBLIC SECURITY</string>
+    <string name="essdirection">SUB DEPARTMENT OF THE PUBLIC HIGHWAY AND CIRCULATION</string>
+    <string name="save_signature">enregistrer</string>
+    <string name="clear_pad">effacer</string>
+    <string name="Signer">Signer</string>
+    <string name="nompersonne">prenom</string>
+    <string name="nom">Nom</string>
+    <string name="gender">Sexe</string>
+
+    <string-array name="object_names">
+        <item>Anderson Thomas</item>
+        <item>Adams Green</item>
+        <item>Laura Michelle</item>
+        <item>Betty L</item>
+        <item>Miller Wilson</item>
+
+        <item>Garcia Lewis</item>
+        <item>Roberts Turner</item>
+        <item>Mary Jackson</item>
+        <item>Sarah Scott</item>
+        <item>Kevin John</item>
+
+        <item>Elizabeth</item>
+        <item>Evans Collins</item>
+        <item>Roberts</item>
+        <item>Betty C</item>
+        <item>Susan Lee</item>
+    </string-array>
+
+</resources>

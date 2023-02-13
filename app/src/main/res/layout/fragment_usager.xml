@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:background="@color/grey_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT DETAILS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/grey_80"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vehicule"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:id="@+id/vehicle"
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numpersonne"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <EditText
+                android:id="@+id/numpersonne"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_white"
+            android:hint="@string/numpersonne"
+            android:minHeight="@dimen/spacing_xmlarge"
+            />
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nompersonne"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <EditText
+                android:id="@+id/prenom"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="@string/nompersonne"
+                android:minHeight="@dimen/spacing_xmlarge"
+        />
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nom"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <EditText
+                android:id="@+id/nom"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="@string/nom"
+                android:minHeight="@dimen/spacing_xmlarge"
+        />
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numvehiculeoccupant"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <EditText
+                android:id="@+id/numvehiculeoccupant"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="@string/numvehiculeoccupant"
+                android:minHeight="@dimen/spacing_xmlarge"
+                />
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numvehiculepieton"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+
+        <EditText
+                android:id="@+id/numvehiculepieton"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="@string/numvehiculepieton"
+                android:minHeight="@dimen/spacing_xmlarge"
+                 />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_marginBottom="@dimen/spacing_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/datedelivrance"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/grey_60"
+                        app:fontFamily="sans-serif-medium" />
+
+                <EditText
+                        android:id="@+id/datedelivrance"
+                        style="@style/EditText.Flat.Grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_round_bg_white"
+                        android:minHeight="@dimen/spacing_xmlarge" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/typeusageroute"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/grey_60"
+            app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:id="@+id/typeusageroute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gravitetraumatisme"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:id="@+id/gravitetraumatisme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/manoeuvrepieton"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:id="@+id/manoeuvrepieton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:id="@+id/persongender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/consalcool"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:id="@+id/consalcool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testalcoolemie"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+        <LinearLayout
+                android:background="@drawable/customborder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/spacing_medium"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_marginBottom="@dimen/spacing_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/statut"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/grey_60"
+                        app:fontFamily="sans-serif-medium" />
+                <Spinner
+                        android:background="@drawable/edit_text_round_spinner_white"
+                        android:id="@+id/statut"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/spacing_medium"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_marginBottom="@dimen/spacing_medium"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/typetest"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/grey_60"
+                        app:fontFamily="sans-serif-medium" />
+
+
+                <Spinner
+                        android:background="@drawable/edit_text_round_spinner_white"
+                        android:id="@+id/typetest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultattest"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:id="@+id/resultattest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/equipementsecurite"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:background="@drawable/customborder"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/spacing_medium"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_marginBottom="@dimen/spacing_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dispositif"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/grey_60"
+                        app:fontFamily="sans-serif-medium" />
+                <Spinner
+                        android:background="@drawable/edit_text_round_spinner_white"
+                        android:id="@+id/dispositif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/spacing_medium"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_marginBottom="@dimen/spacing_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/portcasque"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/grey_60"
+                        app:fontFamily="sans-serif-medium" />
+
+                <Spinner
+                        android:background="@drawable/edit_text_round_spinner_white"
+                        android:id="@+id/portcasque"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeassise"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:background="@drawable/customborder"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/spacing_medium"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_marginBottom="@dimen/spacing_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rangee"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/grey_60"
+                        app:fontFamily="sans-serif-medium" />
+                <Spinner
+                        android:background="@drawable/edit_text_round_spinner_white"
+                        android:id="@+id/rangee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/spacing_medium"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_marginBottom="@dimen/spacing_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/placesiege"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/grey_60"
+                        app:fontFamily="sans-serif-medium" />
+
+
+                <Spinner
+                        android:background="@drawable/edit_text_round_spinner_white"
+                        android:id="@+id/placesiege"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/consommationdrogues"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_60"
+                app:fontFamily="sans-serif-medium" />
+
+        <Spinner
+                android:background="@drawable/edit_text_round_spinner_white"
+                android:id="@+id/consommationdrogues"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:rippleColor="@color/white"
+                app:srcCompat="@drawable/ic_check" /> />
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
